@@ -14,8 +14,8 @@ getgenv().gagConfig = {
     ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
 
-    MAX_PLANTS = 200,
-    DESTROY_UNTIL_MIN_PLANTS = 150,
+    MAX_PLANTS = 100,
+    DESTROY_UNTIL_MIN_PLANTS = 80,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Rose", "Coconut", "Orange Tulip", "Dezen", "Artichoke", "Onion", "Daffodil", "Cauliflower", "Raspberry", "Foxglove", "Horsetail", "Twisted Tangle", "Jalapeno", "Watermelon", "Green Apple", "Apple", "Lilac", "Taro Flower", "Rafflesia", "Lingonberry", "Lucky Bamboo", "Veinpetal", "Crown Melon", "Peach", "Pineapple", "Amber Spine", "Cactus", "Dragon Fruit", "Mango", "Kiwi", "Bell Pepper", "Prickly Pear", "Pink Lily", "Purple Dahlia", "Tall Asparagus", "Sugarglaze", "Mushroom", "Grand Volcania", "Sunflower", "Chocolate Carrot", "Red Lollipop", "Nightshade", "Crocus", "Lavender", "Manuka Flower", "Wild Carrot", "Stonebite", "Candy Sunflower", "Peace Lily", "Mint", "Blue Lollipop", "Glowshroom", "Dandelion", "Nectarshade", "Succulent", "Bee Balm", "Pear", "Delphinium", "Liberty Lily", "Paradise Petal", "Cranberry", "Durian", "Papaya", "Moonflower", "Starfruit", "Lumira", "Nectar Thorn", "Cantaloupe", "Aloe Vera", "Firework Flower", "White Mulberry", "Dragon Sapling", "Horned Dinoshroom", "Boneboo", "Fruitball", "Enkaku", "Sakura Bush", "Easter Egg", "Eggplant", "Passionfruit", "Lemon", "Moonglow", "Moon Melon", "Blood Banana", "Celestiberry", "Guanabana", "Nectarine", "Honeysuckle", "Suncoil", "Bendboo", "Cocovine", "Parasol Flower", "Lily Of The Valley", "Firefly Fern", "Moon Mango", "Candy Blossom", "Cherry Blossom", "Lotus", "Venus Fly Trap", "Rosy Delight", "Traveler's Fruit", "Fossilight", "Tranquil Bloom", "Elephant Ears", "Bone Blossom", "Pink Tulip", "Noble Flower", "Purple Cabbage", "Sinisterdrip", "Mega Mushroom", "Ice Cream Bean", "Lime", "Crimson Vine", "Zenflare", "Serenity", "Zen Rocks", "Hinomai", "Monobloom" },
     
     BUY_EGGS = { "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg" },
@@ -72,7 +72,7 @@ getgenv().gagConfig = {
 
     EQUIP_PETS = { ["Capybara"] = 1, ["Starfish"] = 7 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
+    REMOVE_PET_MAX_UPGRADE = { "Red Giant Ant" },  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
