@@ -68,10 +68,8 @@ getgenv().ConfigsKaitun = {
 		["Cook Event"] = {
 			Minimum_Money = 10_000_000, -- minimum money to start play this event
 			Rewards_Item = { -- The top is the most top mean prefered.
-				"Gorilla Chef",
 				"Culinarian Chest",
 				"Cooking Cauldron",
-			    "Sunny-Side Chicken",
 				"Gourmet Egg",
 				-- u can add it more as u want, if it not in list.
 			}
