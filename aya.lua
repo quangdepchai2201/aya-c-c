@@ -71,6 +71,7 @@ getgenv().ConfigsKaitun = {
 				"Gorilla Chef",
 				"Culinarian Chest",
 				"Cooking Cauldron",
+			    "Sunny-Side Chicken",
 				"Gourmet Egg",
 				-- u can add it more as u want, if it not in list.
 			}
@@ -165,8 +166,6 @@ getgenv().ConfigsKaitun = {
 			"Tanuki",
 			"Pancake Mole",
 			"Bacon Pig",
-			"Starfish",
-			"Sunny-Side Chicken",
 		}
 	},
 
