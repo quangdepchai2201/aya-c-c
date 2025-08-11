@@ -15,26 +15,17 @@ getgenv().ConfigsKaitun = {
 		["Destroy Untill"] = 150,
 
 		["Safe Tree"] = {
-			["Tomato"] = 15,
-			["Blood Banana"] = 1,
-			["Bamboo"] = 1,
-			["Mango"] = 1,
-			["Pineapple"] = 1,
+			["Tomato"] = 30,
 			["Beanstalk"] = 10,
 			["Giant Pinecone"] = 10,
-			["Sugar Apple"] = 20,
+			["Sugar Apple"] = 30,
 			["Pepper"] = 10,
 			["Cacao"] = 10,
 			["Elder Strawberry"] = 10,
-			["Apple"] = 1,
-			"Bone Blossom",
 			"Grand Tomato",
-			["Ember Lily"] = 10,
-			["Violet Corn"] = 10,
-			["Pumpkin"] = 5,
-			["Coconut"] = 10,
 			["Grape"] = 10,
-			["Corn"] = 10,
+			["Corn"] = 30,
+	        "Taco Fern",
 		}
 	},
 
@@ -52,15 +43,13 @@ getgenv().ConfigsKaitun = {
 	"Loquat",
 	"Pepper",
 	"Cacao",
-	"Feijoa",
+	"Bamboo",
 	"Grand Tomato",
 	"Taco Fern",
 	"Beanstalk",
-	"Ember Lily",
 	"Sugar Apple",
 	"Burning Bud",
 	"Giant Pinecone",
-	"Elder Strawberry",
 	"Corn",
 	"Tomato"
 			},
@@ -81,9 +70,8 @@ getgenv().ConfigsKaitun = {
 			Rewards_Item = { -- The top is the most top mean prefered.
 				"Gorilla Chef",
 				"Culinarian Chest",
-				"Gourmet Egg",
 				"Cooking Cauldron",
-				"Sunny-Side Chicken",
+				"Gourmet Egg",
 				-- u can add it more as u want, if it not in list.
 			}
 		},
@@ -130,7 +118,6 @@ getgenv().ConfigsKaitun = {
 	Eggs = {
 		Place = {
 			"Zen Egg",
-			"Paradise Egg",
 		},
 		Buy = {
 			"Paradise Egg",
@@ -149,11 +136,10 @@ getgenv().ConfigsKaitun = {
 			},
 			["Limit Upgrade"] = 4,
 			["Equip When Done"] = {
-				["Gorilla Chef"] = { 6, 100, 2 },
+				["Gorilla Chef"] = { 6, 100, 3 },
 				["Sunny-Side Chicken"] = { 1, 100, 1 },
-				["Sushi Bear"] = { 4, 100, 3 },
-				["Tanchozuru"] = { 2, 100, 4 },
-				["Kappa"] = { 2, 100, 5 },
+				["Tanchozuru"] = { 1, 100, 2 },
+				["Spaghetti Sloth"] = { 1, 100, 4 },
 			},
 		},
 		Favorite_LockedPet = true,
@@ -168,8 +154,8 @@ getgenv().ConfigsKaitun = {
 			"Dragonfly",
 			"Mimic Octopus",
 			["Starfish"] = 10,
-			["Sushi Bear"] = 4,
-			["Tanchozuru"] = 4,
+			["Tanchozuru"] = 2,
+			["Sunny-Side Chicken"] = 8,
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked
 		Instant_Sell = {
@@ -179,6 +165,8 @@ getgenv().ConfigsKaitun = {
 			"Tanuki",
 			"Pancake Mole",
 			"Bacon Pig",
+			"Starfish",
+			"Sunny-Side Chicken",
 		}
 	},
 
@@ -199,7 +187,7 @@ getgenv().ConfigsKaitun = {
 			Pets = {
 				"Kitsune",
 			},
-			Pet_Weight_Noti = false,
+			Pet_Weight_Noti = true,
 		}
 	},
 }
