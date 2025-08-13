@@ -69,8 +69,8 @@ getgenv().ConfigsKaitun = {
 			Minimum_Money = 10_000_000, -- minimum money to start play this event
 			Rewards_Item = { -- The top is the most top mean prefered.
 				"Culinarian Chest",
-				"Cooking Cauldron",
 				"Gourmet Egg",
+				"Cooking Cauldron",
 				-- u can add it more as u want, if it not in list.
 			}
 		},
@@ -117,6 +117,7 @@ getgenv().ConfigsKaitun = {
 	Eggs = {
 		Place = {
 			"Zen Egg",
+			"Gourmet Egg",
 		},
 		Buy = {
 			"Paradise Egg",
@@ -135,26 +136,25 @@ getgenv().ConfigsKaitun = {
 			},
 			["Limit Upgrade"] = 4,
 			["Equip When Done"] = {
-				["Gorilla Chef"] = { 6, 100, 3 },
+				["Gorilla Chef"] = { 4, 100, 3 },
 				["Sunny-Side Chicken"] = { 1, 100, 1 },
 				["Tanchozuru"] = { 1, 100, 2 },
-				["Spaghetti Sloth"] = { 1, 100, 4 },
+				["Spaghetti Sloth"] = { 4, 100, 4 },
 			},
 		},
-		Favorite_LockedPet = true,
+		Unfavorite_AllPet = true,
+		Favorite_LockedPet = false,
 		Locked_Pet_Age = 80, -- pet that age > 80 will lock
 		Locked = {
 			"French Fry Ferret",
 			"Spaghetti Sloth",
 			"Lobster Thermidor",
 			"Corrupted Kitsune",
-			"Kappa",
 			"Kitsune",
 			"Dragonfly",
 			"Mimic Octopus",
 			["Starfish"] = 10,
 			["Tanchozuru"] = 2,
-			["Sunny-Side Chicken"] = 8,
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked
 		Instant_Sell = {
