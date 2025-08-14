@@ -3,7 +3,7 @@ getgenv().ConfigsKaitun = {
 
 	["Block Pet Gift"] = true,
 
-	Collect_Cooldown = 60, -- cooldown to collect fruit
+	Collect_Cooldown = 300, -- cooldown to collect fruit
 	JustFuckingCollectAll = false, -- Collect all (fruit not wait mutation)
 
 	["Low Cpu"] = true,
@@ -11,21 +11,13 @@ getgenv().ConfigsKaitun = {
 
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
-		["Limit"] = 200,
-		["Destroy Untill"] = 150,
+		["Limit"] = 1,
+		["Destroy Untill"] = 0,
 
 		["Safe Tree"] = {
-			["Tomato"] = 30,
-			["Beanstalk"] = 10,
-			["Giant Pinecone"] = 10,
+			["Tomato"] = 50,
 			["Sugar Apple"] = 30,
-			["Pepper"] = 10,
-			["Cacao"] = 10,
-			["Elder Strawberry"] = 10,
-			"Grand Tomato",
-			["Grape"] = 10,
-			["Corn"] = 30,
-	        "Taco Fern",
+			["Corn"] = 50,
 		}
 	},
 
@@ -39,17 +31,6 @@ getgenv().ConfigsKaitun = {
 		Place = {
 			Mode = "Select", -- Select , Lock
 			Select = {	
-	"Grape",
-	"Loquat",
-	"Pepper",
-	"Cacao",
-	"Bamboo",
-	"Grand Tomato",
-	"Taco Fern",
-	"Beanstalk",
-	"Sugar Apple",
-	"Burning Bud",
-	"Giant Pinecone",
 	"Corn",
 	"Tomato"
 			},
@@ -104,12 +85,6 @@ getgenv().ConfigsKaitun = {
 		},
 		Lock = {
 			"Master Sprinkler",
-			"Godly Sprinkler",
-			"Advanced Sprinkler",
-			"Basic Sprinkler",
-			"Chocolate Sprinkler",
-			"Medium Treat",
-			"Medium Toy",
 			"Grandmaster Sprinkler",
 		},
 	},
@@ -139,7 +114,9 @@ getgenv().ConfigsKaitun = {
 				["Gorilla Chef"] = { 4, 100, 3 },
 				["Sunny-Side Chicken"] = { 1, 100, 1 },
 				["Tanchozuru"] = { 1, 100, 2 },
-				["Spaghetti Sloth"] = { 4, 100, 4 },
+				["Spaghetti Sloth"] = { 2, 100, 4 },
+				["Sushi Bear"] = { 2, 100, 5 },
+				["Kappa"] = { 4, 100, 6 },
 			},
 		},
 		Unfavorite_AllPet = true,
@@ -154,7 +131,9 @@ getgenv().ConfigsKaitun = {
 			"Dragonfly",
 			"Mimic Octopus",
 			["Starfish"] = 10,
-			["Tanchozuru"] = 2,
+			["Gorilla Chef"] = 1,
+			["Tanchozuru"] = 1,
+            ["Sunny-Side Chicken"] = 2, 
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked
 		Instant_Sell = {
@@ -164,6 +143,7 @@ getgenv().ConfigsKaitun = {
 			"Tanuki",
 			"Pancake Mole",
 			"Bacon Pig",
+			"Hotdog Daschund",
 		}
 	},
 
