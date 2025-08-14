@@ -111,9 +111,9 @@ getgenv().ConfigsKaitun = {
 			},
 			["Limit Upgrade"] = 4,
 			["Equip When Done"] = {
-				["Gorilla Chef"] = { 4, 100, 3 },
-				["Sunny-Side Chicken"] = { 1, 100, 1 },
-				["Tanchozuru"] = { 1, 100, 2 },
+				["Gorilla Chef"] = { 2, 100, 2 },
+				["Sunny-Side Chicken"] = { 4, 100, 1 },
+				["Tanchozuru"] = { 1, 100, 3 },
 				["Spaghetti Sloth"] = { 2, 100, 4 },
 				["Sushi Bear"] = { 2, 100, 5 },
 				["Kappa"] = { 4, 100, 6 },
