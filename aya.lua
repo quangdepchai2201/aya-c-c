@@ -52,6 +52,8 @@ getgenv().ConfigsKaitun = {
 				"Culinarian Chest",
 				"Gourmet Egg",
 				"Cooking Cauldron",
+				"Kitchen Flooring",
+				"Kitchen Cart",
 				-- u can add it more as u want, if it not in list.
 			}
 		},
@@ -110,11 +112,11 @@ getgenv().ConfigsKaitun = {
 			},
 			["Limit Upgrade"] = 4,
 			["Equip When Done"] = {
-				["Gorilla Chef"] = { 2, 100, 2 },
+				["Gorilla Chef"] = { 3, 100, 2 },
 				["Sunny-Side Chicken"] = { 4, 100, 1 },
-				["Tanchozuru"] = { 1, 100, 3 },
+				["Tanchozuru"] = { 1, 100, 5 },
 				["Spaghetti Sloth"] = { 2, 100, 4 },
-				["Sushi Bear"] = { 2, 100, 5 },
+				["Sushi Bear"] = { 2, 100, 3 },
 				["Kappa"] = { 4, 100, 6 },
 			},
 		},
@@ -133,7 +135,8 @@ getgenv().ConfigsKaitun = {
 			["Starfish"] = 10,
 			["Gorilla Chef"] = 1,
 			["Tanchozuru"] = 1,
-            ["Sunny-Side Chicken"] = 2, 
+            ["Sunny-Side Chicken"] = 2,
+            ["Nihonzaru"] = 2, 
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked
 		Instant_Sell = {
@@ -143,6 +146,11 @@ getgenv().ConfigsKaitun = {
 			"Pancake Mole",
 			"Bacon Pig",
 			"Hotdog Daschund",
+			"Crab",
+			"Mochi Mouse",
+			"Giant Ant",
+			"Seagull",
+			"Ostrich",
 		}
 	},
 
