@@ -92,7 +92,6 @@ getgenv().ConfigsKaitun = {
 	Eggs = {
 		Place = {
 			"Zen Egg",
-			"Gourmet Egg",
 		},
 		Buy = {
 			"Paradise Egg",
@@ -129,6 +128,7 @@ getgenv().ConfigsKaitun = {
 			"Corrupted Kitsune",
 			"Kitsune",
 			"Dragonfly",
+			"Nihonzaru",
 			"Mimic Octopus",
 			["Starfish"] = 10,
 			["Gorilla Chef"] = 1,
@@ -137,7 +137,6 @@ getgenv().ConfigsKaitun = {
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked
 		Instant_Sell = {
-			"Nihonzaru",
 			"Shiba Inu",
 			"Bagel Bunny",
 			"Tanuki",
