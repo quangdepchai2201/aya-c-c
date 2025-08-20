@@ -27,7 +27,7 @@ getgenv().gagConfig = {
     LIMIT_PLANT_SEED = { ["Coconut"] = 5, ["Sugarglaze"] = 5, ["Grape"] = 5, ["Dragon Fruit"] = 3, ["Hinomai"] = 5, ["Ember Lily"] = 10, ["Apple"] = 5, ["Spiked Mango"] = 5, ["Taro Flower"] = 5, ["Pepper"] = 5, ["Mango"] = 5, ["Blueberry"] = 3, ["Sugar Apple"] = 30, ["Beanstalk"] = 5, ["Serenity"] = 10 },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg" },
-    PLANT_EGGS = { "Rare Summer Egg" },
+    PLANT_EGGS = { "Zen Egg", "Sprout Egg" },
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Mango", "Dragon Fruit", "Coconut", "Carrot", "Grape" },
     KEEP_SEEDS = { "Elder Strawberry", "Carrot", "Giant Pinecone", "Burning Bud", "Mushroom", "Onion", "Pumpkin", "Watermelon", "Tall Asparagus", "Fruitball", "Taro Flower", "Orange Tulip", "Monoblooma", "Artichoke", "Strawberry", "Lucky Bamboo", "Daffodil", "Crown Melon", "Jalapeno", "Maple Apple", "Cactus", "Zen Rocks", "Enkaku", "Tranquil Bloom", "Taco Fern", "Grand Tomato", "Dezen", "Twisted Tangle", "Veinpetal", "Horsetail", "Lingonberry", "Amber Spine", "Rose", "Foxglove", "Lilac", "Pink Lily", "Purple Dahlia", "Sunflower", "Butternut Squash", "Spring Onion", "Pricklefruit", "Bitter Melon", "King Cabbage", "Badlands Pepper", "Rhubarb", "Tomato", "Corn", "Bamboo", "Flare Daisy", "Duskpuff", "Mangosteen", "Poseidon Plant", "Gleamroot", "Princess Thorn", "Mandrake", "Canary Melon", "Amberheart", "Romanesco" },
@@ -40,7 +40,7 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 80,
 
-    EQUIP_PETS = { ["Hotdog Daschund"] = 3, ["Sunny-Side Chicken"] = 5 },
+    EQUIP_PETS = { ["Seal"] = 3, ["Sunny-Side Chicken"] = 5 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
