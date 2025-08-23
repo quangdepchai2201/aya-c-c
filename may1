@@ -11,7 +11,7 @@ getgenv().gagConfig = {
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg" },
     MAX_EVENT_RESTOCK_SHECKLES = 200_000_001_000, -- Restock stop at 48m
-    BUY_EVENT_SHOP = { "Sprout Egg" },
+    BUY_EVENT_SHOP = { "Sprout Egg", "Sprout Seed Pack" },
     
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -19,7 +19,7 @@ getgenv().gagConfig = {
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
     ADD_FRIEND = false,
-    OPEN_ALL_SEED_PACK = true,
+    OPEN_ALL_SEED_PACK = false,
 
     MAX_PLANTS = 130,
     DESTROY_UNTIL_MIN_PLANTS = 0,
@@ -27,7 +27,7 @@ getgenv().gagConfig = {
     LIMIT_PLANT_SEED = { ["Coconut"] = 5, ["Sugarglaze"] = 5, ["Grape"] = 5, ["Dragon Fruit"] = 3, ["Hinomai"] = 5, ["Ember Lily"] = 10, ["Apple"] = 5, ["Spiked Mango"] = 5, ["Taro Flower"] = 5, ["Pepper"] = 5, ["Mango"] = 5, ["Blueberry"] = 3, ["Sugar Apple"] = 30, ["Beanstalk"] = 5, ["Serenity"] = 10 },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg" },
-    PLANT_EGGS = { "Zen Egg", "Sprout Egg" },
+    PLANT_EGGS = { "Zen Egg", },
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Mango", "Dragon Fruit", "Coconut", "Carrot", "Grape" },
     KEEP_SEEDS = { "Elder Strawberry", "Carrot", "Giant Pinecone", "Burning Bud", "Mushroom", "Onion", "Pumpkin", "Watermelon", "Tall Asparagus", "Fruitball", "Taro Flower", "Orange Tulip", "Monoblooma", "Artichoke", "Strawberry", "Lucky Bamboo", "Daffodil", "Crown Melon", "Jalapeno", "Maple Apple", "Cactus", "Zen Rocks", "Enkaku", "Tranquil Bloom", "Taco Fern", "Grand Tomato", "Dezen", "Twisted Tangle", "Veinpetal", "Horsetail", "Lingonberry", "Amber Spine", "Rose", "Foxglove", "Lilac", "Pink Lily", "Purple Dahlia", "Sunflower", "Butternut Squash", "Spring Onion", "Pricklefruit", "Bitter Melon", "King Cabbage", "Badlands Pepper", "Rhubarb", "Tomato", "Corn", "Bamboo", "Flare Daisy", "Duskpuff", "Mangosteen", "Poseidon Plant", "Gleamroot", "Princess Thorn", "Mandrake", "Canary Melon", "Amberheart", "Romanesco" },
@@ -36,7 +36,7 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},
     SKIP_HARVEST_MUTATIONS = {},
 
-    KEEP_PETS = { "Golden Goose", "French Fry Ferret", "Kitsune", "Raccoon", "Dragonfly", "Mimic Octopus", "Red Fox", ["Starfish"] = 8, ["Seal"] = 8, "Lobster Thermidor", ["Hotdog Daschund"] = 8, ["Sunny-Side Chicken"] = 5 },
+    KEEP_PETS = { "Golden Goose", "French Fry Ferret", "Kitsune", "Raccoon", "Dragonfly", "Mimic Octopus", "Red Fox", "Lemon Lion", "Chicken Zombie", "Peach Wasp", "Apple Gazelle", "Green Bean", ["Starfish"] = 8, ["Seal"] = 8, "Lobster Thermidor", ["Hotdog Daschund"] = 8, ["Sunny-Side Chicken"] = 5 },
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 80,
 
