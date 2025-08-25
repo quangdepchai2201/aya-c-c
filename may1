@@ -185,7 +185,9 @@ getgenv().ConfigsKaitun = {
 			"NAME oF PET THAT U DONT NEED LOCK",
 		},
 		Instant_Sell = {
-			"NAME oF SOMETHING",
+			"Dairy Cow",
+			"Seedling",
+			"Jackalope",
 		}
 	},
 
@@ -208,6 +210,7 @@ getgenv().ConfigsKaitun = {
 			Pets = {
 				"Griffin",
 				"Kitsune",
+				"Golden Goose",
 			},
 			Pet_Weight_Noti = true,
 		}
