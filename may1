@@ -1,9 +1,8 @@
 setfpscap(4)
 task.wait(6)
 local keys = {  -- Add as many key
-    "puxUxJzOyWDyOZPqVlYDeeCjZRTDkSNE", 
-    "NrsGkghoDxWjcUggPAuHLZVoIyTRUPws", 
-    "drNFiGGMBKzKPiPRDhtMpFHilUnFtyyd", 
+    "cyGnzuTqxQQoWuLYeNhytEtIkOZZfGBy",
+    "QDHjcAnSUErcfUuJdbirtWhbLvQpaKGv",
 }
 
 script_key = keys[math.random(#keys)];
