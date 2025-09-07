@@ -9,9 +9,11 @@ script_key = keys[math.random(#keys)];
 
 getgenv().gagConfig = {
     -- Event:
-    CRAFT_EVENT = { "Anti Bee Egg", "Mutation Spray Glimmering" },
+    CRAFT_EVENT = { "Fairy Net", "Enchanted Chest", "Anti Bee Egg", "Mutation Spray Glimmering" },
     BUY_TRAVELING_MERCHANT = { "Rare Summer Egg", "Common Summer Egg", "Paradise Egg" },
-    CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
+    BUY_EVENT_SHOP = {"Enchanted Chest", "Wisp", "Drake" },
+    MAX_EVENT_RESTOCK_SHECKLES = 480000001,
+    CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Seed Pack", "Enchanted Egg", "FairyPoints" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
 
@@ -39,8 +41,8 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},
     SKIP_HARVEST_MUTATIONS = {},
 
-    KEEP_PETS = { "Cockatrice", "Glimmering Sprite", "Griffin", "Golden Goose", "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", ["Starfish"] = 8, ["Seal"] = 8, "Lobster Thermidor", ["Sunny-Side Chicken"] = 5 },
-    KEEP_PETS_WEIGHT = 5,
+    KEEP_PETS = { "Phoenix", "Drake", "Wisp", "Luminous Sprite", "Cockatrice", "Starfish", "Griffin", "Golden Goose", "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", ["Glimmering Sprite"] = 8, ["Seal"] = 8, "Lobster Thermidor", ["Sunny-Side Chicken"] = 5 },
+    KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 75,
 
     EQUIP_PETS = { ["Sunny-Side Chicken"] = 4, ["Seal"] = 4 },
@@ -52,8 +54,8 @@ getgenv().gagConfig = {
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1397396450404728934/a13XJ-ZPxjnQedqOxBTjCiB5bSiICrOGuJ6Z7z-lMVLX3DYH-hRPJBK-qU3cxgjGBIJH",
     SEED_WEBHOOK_URL = "", 
-    NOTIFY_PETS = { "Cockatrice", "Griffin", "Golden Goose", "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus" },
-    NOTIFY_PETS_WEIGHT = 6,
+    NOTIFY_PETS = { "Cockatrice", "Griffin", "Phoenix", "Golden Goose", "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus" },
+    NOTIFY_PETS_WEIGHT = 8,
     DISCORD_ID = "1189850586468851765",
     WEBHOOK_NOTE = "sao nyc vẫn xinh vậy",
     SHOW_WEBHOOK_USERNAME = true,
