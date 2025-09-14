@@ -53,7 +53,7 @@ getgenv().gagConfig = {
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1397396450404728934/a13XJ-ZPxjnQedqOxBTjCiB5bSiICrOGuJ6Z7z-lMVLX3DYH-hRPJBK-qU3cxgjGBIJH",
     SEED_WEBHOOK_URL = "", 
-    NOTIFY_PETS = { "Cockatrice", "Griffin", "Swan", "Phoenix", "Golden Goose", "French Fry Ferret", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus" },
+    NOTIFY_PETS = { "Cockatrice", "Griffin", "Swan", "Phoenix", "Golden Goose", "French Fry Ferret", "Sunny-Side Chicken", "Seal", "Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus" },
     NOTIFY_PETS_WEIGHT = 8,
     DISCORD_ID = "1189850586468851765",
     WEBHOOK_NOTE = "sao nyc vẫn xinh vậy",
